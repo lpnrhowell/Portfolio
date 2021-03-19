@@ -1,0 +1,47 @@
+
+.profile{
+
+display: flex;
+justify-content: space-between;
+
+}
+.info{
+ 
+  justify-content: center;
+}
+
+.bio{
+  background-color: green;
+
+}
+
+.me{
+  border-radius: 60%;
+  height: 130px;
+  padding: 5px;
+}
+#aboutMe{
+  background-color: aqua;
+}
+.projects{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project1{
+background-color: blue;
+height: 200px;
+width: 250px;
+}
+.project2{
+  background-color:red;
+  height: 200px;
+  width: 250px;
+
+}
+.project3{
+  background-color: green;
+  height: 200px;
+  width: 250px;
+
+}

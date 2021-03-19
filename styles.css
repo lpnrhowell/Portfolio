@@ -1,18 +1,53 @@
+.myPic img{
+  
+  height: 500px;
+  width: 450px;
 
+}
+.myPic{
+  padding-left: 300px;
+}
+body{
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/36MTy7r/hacking-info-data-transfer-background-concept-for-data-in-a-digital-world-background-concept-for-data-in-a-digital-world_sremot6ee_thumbnail-1080_04.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
 .profile{
-
+min-height: 700px;
 display: flex;
-justify-content: space-between;
+margin-left: 100px;
+padding-top: 100px;
+justify-content: space-evenly;
+color: white;
+
+
 
 }
 .info{
  
   justify-content: center;
 }
-
+#aboutMe{
+  margin-top: 60px;
+}
 .bio{
-  background-color: green;
+  height: 400px;
+  width: 400px;
+  padding-top: 100px;
 
+  font-weight: bolder;
+
+
+}
+.navLink{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
 }
 
 .me{
@@ -21,17 +56,21 @@ justify-content: space-between;
   padding: 5px;
 }
 #aboutMe{
-  background-color: aqua;
+  
 }
 .projects{
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 100px;
 }
 
 .project1{
-background-color: blue;
+display: flex;
+background-color: whitesmoke;
 height: 200px;
-width: 250px;
+width: 600px;
+justify-content: space-between;
 }
 .project2{
   background-color:red;

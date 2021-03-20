@@ -8,7 +8,7 @@
   padding-left: 300px;
 }
 body{
-  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/36MTy7r/hacking-info-data-transfer-background-concept-for-data-in-a-digital-world-background-concept-for-data-in-a-digital-world_sremot6ee_thumbnail-1080_04.png");
+  background-image: url("https://www.techrepublic.com/a/hub/i/r/2020/04/07/1813351a-0675-4189-a80d-e0546f7adc23/resize/1200x900/432effa8e0f1ea3011e8a9433cd2c92d/silicon-valley-hbo-background-1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -24,14 +24,14 @@ color: white;
 
 
 }
-.info{
+#info{
  
   justify-content: center;
 }
 #aboutMe{
   margin-top: 60px;
 }
-.bio{
+#bio{
   height: 400px;
   width: 400px;
   padding-top: 100px;
@@ -43,12 +43,31 @@ color: white;
 .navLink{
   display: flex;
   justify-content: space-evenly;
+  
+ 
+}
+
+.navLink li{
+  
+  
   list-style-type: none;
   margin-top: 20px;
   color: white;
   font-weight: bolder;
   font-size: large;
 }
+li a{
+  text-decoration: none;
+}
+
+
+.containers{
+  background-color: darkgrey;
+ width: 100vw;
+ 
+  
+}
+
 
 .me{
   border-radius: 60%;
@@ -58,29 +77,64 @@ color: white;
 #aboutMe{
   
 }
-.projects{
+#projects{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 100px;
+  height: 1200px;
 }
 
 .project1{
 display: flex;
-background-color: whitesmoke;
-height: 200px;
-width: 600px;
-justify-content: space-between;
+flex-direction: column;
+height: 600px;
+
+
+justify-content: space-around;
+
+}
+.project1 img{
+  width: 600px;
+}
+.project1 p{
+  width: 600px;
+  padding-left: 30px;
 }
 .project2{
-  background-color:red;
+  display: flex;
+  background-color: whitesmoke;
   height: 200px;
-  width: 250px;
-
+  width: 600px;
 }
 .project3{
-  background-color: green;
+  display: flex;
+  background-color: blue;
   height: 200px;
-  width: 250px;
+  width: 600px;
 
+}
+@media screen and (max-width: 600px) {
+  main,
+  img{
+    max-height: 300px;
+    max-width: 300px;
+  }
+  .profile{
+  margin-left: 100px;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0;
+  }
+  .myPic{
+    padding-left: 100px;
+  }
+  #bio{
+    padding-top: 50px;
+    padding-left: 80px;
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+  }
 }

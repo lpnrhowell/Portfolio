@@ -18,4 +18,4 @@ Screenshots
 ![Alt text](./Assets/contact.png "portfolio-contact")
 
 
-# iew my webpage: [Robert's Portfolio](https://lpnrhowell.github.io/portfolio/)
+# View my webpage: [Robert's Portfolio](https://lpnrhowell.github.io/portfolio/)

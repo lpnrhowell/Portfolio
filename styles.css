@@ -11,6 +11,11 @@ body{
   background-image: url("https://www.techrepublic.com/a/hub/i/r/2020/04/07/1813351a-0675-4189-a80d-e0546f7adc23/resize/1200x900/432effa8e0f1ea3011e8a9433cd2c92d/silicon-valley-hbo-background-1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x:hidden;
+  margin: 0px;
  
 }
 .profile{
@@ -20,13 +25,24 @@ margin-left: 100px;
 padding-top: 100px;
 justify-content: space-evenly;
 color: white;
+margin-right: 0;
 
 
 
 }
+.data-bs-spy{
+  margin: 0;
+}
 #info{
- 
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(80, 79, 79);
+  padding-left: 600px;
+  height: 600px;
+  width: 100vw;
+  color: white;
+  padding-top: 100px
+  ;
 }
 #aboutMe{
   margin-top: 60px;
@@ -55,15 +71,26 @@ color: white;
   color: white;
   font-weight: bolder;
   font-size: large;
+  display: inline-block;
+  margin-left: 25px;
 }
 li a{
   text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+.navbar{
+ 
+    float: right;
+    display:inline-block;
+    background: transparent;
+    margin-right: 25px;
 }
 
 
 .containers{
   background-color: darkgrey;
- width: 100vw;
+  width: 100vw;
  
   
 }
@@ -82,18 +109,12 @@ li a{
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 100px;
-  height: 1200px;
+  height: 1400px;
 }
 
-.project1{
-display: flex;
-flex-direction: column;
-height: 600px;
 
 
-justify-content: space-around;
-
-}
+/* project 1 stlyings(facebook) */
 .project1 img{
   width: 600px;
 }
@@ -101,18 +122,78 @@ justify-content: space-around;
   width: 600px;
   padding-left: 30px;
 }
+.project1{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-around;
+  }
+/* project 2 stylings */
 .project2{
   display: flex;
-  background-color: whitesmoke;
+margin-left: 600px; 
   height: 200px;
-  width: 600px;
+  width: 100vw;
+  justify-content: right;
 }
+.project2 p{
+  width: 300px;
+}
+.project2 img{
+  height: 300px;
+  width: 300px;
+}
+.project2 img:hover{
+  height: 400px ;
+  width: 400px;
+  margin-left: 100px;
+}
+
+/* project 3 sylings */
 .project3{
   display: flex;
-  background-color: blue;
+ 
   height: 200px;
   width: 600px;
+  
 
+}
+.project3 img{
+  height: 300px;
+  width: 300px;
+}
+
+.project3 img:hover{
+  height: 400px ;
+  width: 400px;
+}
+.project3 p{
+width: 600px;
+padding-left: 30px;
+}
+
+
+
+
+.social{
+  font-size: 30px;
+
+}
+#info h1{
+  padding-left: 70px;
+}
+.name{
+  padding-left: 75px;
+}
+
+.email{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 900px){
+  .profile{
+    display: block;
+  }
 }
 @media screen and (max-width: 600px) {
   main,
@@ -121,20 +202,45 @@ justify-content: space-around;
     max-width: 300px;
   }
   .profile{
-  margin-left: 100px;
+    display: block;
+  }
+  body{
+    overflow-x:hidden;
+  }
+  .project2{
+  
+    background-color: none;
+
+    width: 100%;
+   
+  }
+  #projects{
+    background-color: none;
+  }
+  .containers{
+    background-color: none;
+    width: 500px;
+  }
+  .profile{
+   margin-left: 100px;
   justify-content: center;
   flex-direction: column;
-  padding-top: 0;
+  /* padding-top: ; */
   }
   .myPic{
     padding-left: 100px;
   }
-  #bio{
+  #aboutMe{
+    display: inline-block;
     padding-top: 50px;
     padding-left: 80px;
-    text-align: center;
+    height: 200px;
   }
   nav {
     flex-direction: column;
   }
+  #info{
+    padding-left: 0px;
+  }
+  
 }

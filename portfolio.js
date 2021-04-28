@@ -6,4 +6,5 @@ $(document).ready(function() {
     this.pause();
 
   });
+  console.log("working")
 })

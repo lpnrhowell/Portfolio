@@ -128,6 +128,11 @@ li a{
   height: 600px;
   justify-content: space-around;
   }
+  .project1 video:hover{
+  height: 700px ;
+  width: 700px;
+  margin-left: 100px;
+}
 /* project 2 stylings */
 .project2{
   display: flex;

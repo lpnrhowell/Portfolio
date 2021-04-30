@@ -9,7 +9,7 @@ Screenshots
 ![Alt text](./Assets/portfolio-profile2.png "portfolio-profile")
 
 ### Projects
-![Alt text](./Assets/projects1.png "portfolio-projects")
+![Alt text](./Assets/project1.png "portfolio-projects")
 
 ### Projects 2nd view
 ![Alt text](./Assets/projects2.png "portfolio-project2")
